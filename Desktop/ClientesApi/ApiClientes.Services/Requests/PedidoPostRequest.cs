@@ -5,7 +5,8 @@ namespace ApiClientes.Services.Requests
     {
         [Required(ErrorMessage = "Informe o nome do pedido")]
         public string Nome { get; set; }
-       // public int IdPedido { get; set; }
+       
+
         [Required(ErrorMessage = "Informe o valor do pedido")]
         public decimal Valor { get; set; }
         [Required(ErrorMessage = "Informe o número do pedido")]
